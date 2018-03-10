@@ -1,0 +1,3 @@
+sbt clean package
+docker build -t timfpark/copy-data:latest .
+docker push timfpark/copy-data:latest
